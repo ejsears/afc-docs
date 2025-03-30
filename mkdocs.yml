@@ -1,6 +1,6 @@
 site_name: AFC-Klipper-Add-On Software Guide
 site_description: "A guide to the AFC Klipper Add-On Software"
-#site_url: https://armoredturtle.github.io/AFC-Klipper-Add-On/
+site_url: https://armoredturtle.xyz/docs/
 
 repo_url: https://github.com/ArmoredTurtle/AFC-Klipper-Add-On
 
@@ -28,7 +28,7 @@ theme:
   icon:
     repo: fontawesome/brands/github
   name: material
-  logo: assets/logo.svg
+  logo: assets/logo.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
