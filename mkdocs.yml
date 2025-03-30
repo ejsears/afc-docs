@@ -2,25 +2,31 @@ site_name: AFC-Klipper-Add-On Software Guide
 site_description: "A guide to the AFC Klipper Add-On Software"
 #site_url: https://armoredturtle.github.io/AFC-Klipper-Add-On/
 
+repo_url: https://github.com/ArmoredTurtle/AFC-Klipper-Add-On
+
 nav:
   - Home: index.md
-  - Getting Started:
+  - Installation / Getting Started:
     - Installation: installation/getting-started.md
     - Runtime Options: installation/runtime-options.md
+    - Menus:
+      - Main Menu: installation/main-menu.md
+      - Install Menu: installation/install-menu.md
   - Configuration:
     - Configuration: configuration/configuration.md
-    - Configuration Options: configuration/configuration-options.md
-    - Configuration Examples: configuration/configuration-examples.md
+    - Configuration Options: configuration/configuration_options.md
+    - Configuration Examples: configuration/configuration_examples.md
   - Klipper / Macros:
       - Command Reference: klipper/command_reference.md
       - Macros: klipper/macros.md
   - Troubleshooting:
     - Troubleshooting: troubleshooting/troubleshooting.md
     - FAQ: troubleshooting/faq.md
-  - GitHub: https://github.com/ArmoredTurtle/AFC-Klipper-Add-On
 
 
 theme:
+  icon:
+    repo: fontawesome/brands/github
   name: material
   logo: assets/logo.svg
   palette:
@@ -63,6 +69,8 @@ markdown_extensions:
 - md_in_html
 - pymdownx.blocks.caption
 - pymdownx.details
+- pymdownx.tabbed:
+    alternate_style: true
 - pymdownx.highlight:
     anchor_linenums: true
     line_spans: __span

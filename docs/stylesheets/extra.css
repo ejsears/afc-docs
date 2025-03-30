@@ -1,7 +1,10 @@
 :root  > * {
   --md-primary-fg-color:        #333333;
-  --md-primary-fg-color--light: #333333;
-  --md-primary-fg-color--dark:  #333333;
+  --md-primary-fg-color--light: #3b7843;
+  --md-primary-fg-color--dark: #ffffff;
+  --md-typeset-a-color--light: #2c3ebc;
+  --md-typeset-a-color--dark: #B9A46A;
+  --md-typeset-a-color: #B9A46A;
 }
 
 .md-header__ellipsis {
@@ -10,8 +13,8 @@
 }
 
 .md-header__button.md-logo img {
-    width: 75px;
-    height: auto;
+    width: 60px;
+    height: 60px;
 }
 
 @font-face {
