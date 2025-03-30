@@ -10,11 +10,14 @@
 .md-header__ellipsis {
     color: #B9A46A;
     --md-text-font: "Apex Mk2";
+    text-transform: uppercase;
+    vertical-align: auto;
 }
 
 .md-header__button.md-logo img {
     width: 60px;
-    height: 60px;
+    height: auto;
+    vertical-align: bottom;
 }
 
 @font-face {
