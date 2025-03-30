@@ -1,0 +1,20 @@
+:root  > * {
+  --md-primary-fg-color:        #333333;
+  --md-primary-fg-color--light: #333333;
+  --md-primary-fg-color--dark:  #333333;
+}
+
+.md-header__ellipsis {
+    color: #B9A46A;
+    --md-text-font: "Apex Mk2";
+}
+
+.md-header__button.md-logo img {
+    width: 75px;
+    height: auto;
+}
+
+@font-face {
+  font-family: "Apex Mk2";
+  src: url("../assets/fonts/ApexMk2-Regular.woff2");
+}
